@@ -1,0 +1,88 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// highlight.js
+@import '~highlightjs/styles/default.css';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// 自訂CSS
+
+body {
+  font-family: $font-family-sans-serif;
+  //background-color: $body-bg;
+}
+
+body {
+  background-color: #222;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #2b2b2b 0,
+      #2b2b2b 1px,
+      #222222 0,
+      #222222 7px
+  );
+  background-position: left top;
+  background-size: 10px 10px;
+  background-repeat: repeat;
+}
+
+a,a:link { color: #5E8C88; text-decoration: none; }
+a:visited { color: #5E8C88; text-decoration: none; }
+a:hover { color: #97D74A; text-decoration: underline; }
+a:active { color: #FF3333; }
+
+
+h1,h2,h3,h4,h5,h6,strong {
+  font-family: "Microsoft YaHei", "Microsoft JhengHei", Arial, 'LiHei Pro', sans-serif;
+  font-weight: bold;
+  margin: 1.2em 0 0.5em 0;
+}
+
+pre {
+  border: 1px solid #999;
+}
+code {
+  background-color: #fff !important;
+}
+
+.container {
+  
+}
+
+.md-container {
+  width: auto;
+  max-width: 900px;
+  margin-top: 20px;
+  padding: 0px 40px 70px 40px;
+  background-color: #eee;
+  border: 1px solid #fff;
+}
+
+.md-container h1, .md-container h2 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #999;
+}
+
+.md-container li > p {
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #ccc;
+  font-size: 12px;
+  padding: 20px 0;
+}
