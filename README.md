@@ -14,8 +14,16 @@ Laravel 5.6 + parsedown + highlightjs
 ## Install
 ```shell
 $ git clone https://github.com/Eotones/laravel-markdown.git
+$ cd laravel-markdown
 $ composer install
-$ npm i
+$ npm install
+#
+$ copy .env.example .env
+# Open .env change database name and password
+$ php artisan key:generate
+$ php artisan migrate
+$ php artisan serve
+# Go to localhost:8000
 ```
 
 ## Build SCSS and JS
