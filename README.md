@@ -14,7 +14,7 @@ Laravel 5.6 + parsedown + highlightjs
 ## Install
 ```shell
 $ git clone https://github.com/Eotones/laravel-markdown.git
-$ composer require
+$ composer install
 $ npm i
 ```
 
